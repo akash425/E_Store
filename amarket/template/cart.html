@@ -1,0 +1,9 @@
+{% for product in products%}
+<div class="product" >
+    {{ product.p_name }}
+    {{ product.p_price }}
+    {{ product.p_cout }}
+    <a href="#" class="btn btn-primary">Buy Now</a>
+</div>
+
+{% endfor %}
