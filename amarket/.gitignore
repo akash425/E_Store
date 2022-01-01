@@ -3,9 +3,9 @@
 *.pot
 *.pyc
 __pycache__
-../db.sqlite3
+db.sqlite3
 uploads
-migrations
+000*.py
 .idea
 
 # Backup files # 
